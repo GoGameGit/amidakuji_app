@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  width: 120px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+#resultDisplay {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
