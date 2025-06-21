@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>あみだくじ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎯 あみだくじ</h1>
+
+  <div id="config">
+    <label>参加人数（2～5人）:</label>
+    <input type="number" id="playerCount" value="3" min="2" max="5" />
+    <button onclick="setup()">設定</button>
+  </div>
+
+  <div id="inputs"></div>
+  <button id="startButton" onclick="startAmidakuji()" style="display:none;">順番にスタート</button>
+
+  <canvas id="amidakujiCanvas" width="360" height="400"></canvas>
+  <div id="resultDisplay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
